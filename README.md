@@ -20,4 +20,4 @@ openssl req -x509 -sha256 -days 365 -key key.pem -in csr.csr -out certificate.pe
 openssl pkcs12 -export -out client-identity.p12 -inkey key.pem -in certificate.pem
 
 Here after generating certificate you can run the python script using command line:
-python3 pdf-signer.py certificate-path password pdf-path logo-path
+python3 pdf-signer.py certificate-path password pdf logo-path
