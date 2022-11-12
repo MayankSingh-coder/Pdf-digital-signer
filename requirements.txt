@@ -1,0 +1,3 @@
+cryptography==2.8
+endesive==2.0.12
+pytz==2019.3
