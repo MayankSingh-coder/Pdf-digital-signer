@@ -37,3 +37,5 @@ Here after generating certificate you can run the python script using command li
 ```bash
 python3 pdf-signer.py certificate-path password pdf logo-path
 ```
+
+Signed PDF Certificate will be something like(a4-blank-signature_appearance.pdf) provided with repository.
